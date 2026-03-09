@@ -1,0 +1,20 @@
+[project]
+name = "math-mentor-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "easyocr>=1.7.2",
+    "faiss-cpu>=1.13.2",
+    "groq>=1.0.0",
+    "numpy>=2.4.2",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+    "pyttsx3>=2.99",
+    "sentence-transformers>=5.2.3",
+    "streamlit>=1.54.0",
+    "streamlit-mic-recorder>=0.0.8",
+    "sympy>=1.14.0",
+    "tqdm>=4.67.3",
+]

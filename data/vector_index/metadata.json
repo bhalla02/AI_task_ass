@@ -1,0 +1,18 @@
+[
+  {
+    "source": "algebra.md",
+    "text": "# Algebra \u2014 JEE Style ## 1. Quadratic Equations Standard form: ax^2 + bx + c = 0 Quadratic Formula: x = (-b \u00b1 sqrt(b^2 - 4ac)) / (2a) Discriminant: D = b^2 - 4ac Nature of roots: D > 0 \u2192 two distinct real roots D = 0 \u2192 equal roots D < 0 \u2192 complex roots Sum and product of roots: \u03b1 + \u03b2 = -b/a \u03b1\u03b2 = c/a --- ## 2. Factorization Identities (a + b)^2 = a^2 + 2ab + b^2 (a - b)^2 = a^2 - 2ab + b^2 a^2 - b^2 = (a - b)(a + b) (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3 --- ## 3. Inequalities If a > b and c > 0: ac > bc If c < 0: ac < bc AM \u2265 GM: (a + b)/2 \u2265 sqrt(ab) --- ## 4. Logarithms log(ab) = log a + log b log(a/b) = log a - log b log(a^n) = n log a Change of base: log_a b = log b / log a --- ## 5. Common Mistakes - Forgetting to check extraneous roots. - Dividing by a variable without checking if zero. - Ignoring domain restrictions in logarithms."
+  },
+  {
+    "source": "calculus.md",
+    "text": "# Basic Calculus \u2014 JEE Level ## 1. Limits Basic limits: lim (x \u2192 0) sin x / x = 1 lim (x \u2192 0) (1 - cos x)/x^2 = 1/2 lim (x \u2192 0) (e^x - 1)/x = 1 L'Hospital's Rule: If limit gives 0/0 or \u221e/\u221e, differentiate numerator and denominator. --- ## 2. Derivative Rules d/dx (x^n) = n x^(n-1) d/dx (sin x) = cos x d/dx (cos x) = -sin x d/dx (e^x) = e^x d/dx (ln x) = 1/x --- ## 3. Product Rule d/dx (u v) = u dv/dx + v du/dx --- ## 4. Chain Rule If y = f(g(x)): dy/dx = f'(g(x)) * g'(x) --- ## 5. Optimization Strategy 1. Define variable. 2. Express function to optimize. 3. Differentiate. 4. Set derivative = 0. 5. Check second derivative or boundary. --- ## 6. Common Mistakes - Forgetting chain rule. - Not checking critical points. - Ignoring domain constraints."
+  },
+  {
+    "source": "linear_algebra.md",
+    "text": "# Linear Algebra Basics \u2014 JEE Level ## 1. Determinant (2x2) |a b| |c d| det = ad - bc --- ## 2. Determinant Properties - If two rows are equal \u2192 determinant = 0 - Swapping rows changes sign. - If one row is multiple of another \u2192 determinant = 0 --- ## 3. Inverse of 2x2 Matrix If A = |a b| |c d| A^-1 = (1 / (ad - bc)) * | d -b | | -c a | Condition: det \u2260 0 --- ## 4. Solving Linear System AX = B If det(A) \u2260 0, Unique solution exists. --- ## 5. Rank - Rank = number of linearly independent rows. - If rank(A) = rank([A|B]) \u2192 consistent system. --- ## 6. Common Mistakes - Forgetting determinant non-zero condition. - Incorrect minor/cofactor signs."
+  },
+  {
+    "source": "probability.md",
+    "text": "# Probability \u2014 JEE Level ## 1. Basic Definitions Probability: P(A) = (Number of favorable outcomes) / (Total outcomes) 0 \u2264 P(A) \u2264 1 --- ## 2. Addition Rule P(A \u222a B) = P(A) + P(B) - P(A \u2229 B) If mutually exclusive: P(A \u2229 B) = 0 --- ## 3. Multiplication Rule P(A \u2229 B) = P(A) P(B|A) If independent: P(A \u2229 B) = P(A) P(B) --- ## 4. Conditional Probability P(A|B) = P(A \u2229 B) / P(B) --- ## 5. Bayes Theorem P(A|B) = [P(B|A) P(A)] / P(B) --- ## 6. Permutations & Combinations nPr = n! / (n-r)! nCr = n! / (r!(n-r)!) --- ## 7. Binomial Probability Probability of exactly r successes in n trials: P = nCr * p^r * (1-p)^(n-r) --- ## 8. Common Mistakes - Not checking independence. - Using permutation instead of combination. - Forgetting complement rule: P(A') = 1 - P(A)"
+  }
+]
